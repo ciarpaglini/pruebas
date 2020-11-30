@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        .loader {
+            background-color: #f0f0f0;
+            border: 10px solid #f3f3f3;
+            border-radius: 50%;
+            border-top: 10px solid #3498db;
+            width: 90px;
+            height: 90px;
+            -webkit-animation: spin 2s linear infinite;
+            /* Safari */
+            animation: spin 2s linear infinite;
+        }
+
+        /* Safari */
+        @-webkit-keyframes spin {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="loader" class="loader">
+        <div>
+            <h2>How To Create A Loader</h2>
+            <img src="./img/43498e47-d43c-43b5-bee6-dc534880d812.JPG">
+            <img src="./img/43498e47-d43c-43b5-bee6-dc534880d812.JPG">
+            <img src="./img/43498e47-d43c-43b5-bee6-dc534880d812.JPG">
+            <img src="./img/43498e47-d43c-43b5-bee6-dc534880d812.JPG">
+            <img src="./img/43498e47-d43c-43b5-bee6-dc534880d812.JPG">
+        </div>
+    </div>
+    <script>
+        window.onload = function () {
+
+            var hidde = document.getElementById('loader');
+            hidde.classList.remove("loader");
+        }
+    </script>
+
+</body>
+
+</html>

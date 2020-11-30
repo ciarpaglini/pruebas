@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+
+</head>
+<style>
+.hidden{
+    visibility: hidden;
+}
+#hidden{
+    display: none;
+}
+#container {
+    width: 600px;
+    height: 600px;
+    position: relative;
+    background: yellow;
+}
+
+#animate {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-color: red;
+}
+
+.mystyle {
+    width: 100%;
+    padding: 25px;
+    background-color: coral;
+    color: white;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+</style>
+
+<body>
+
+    <div id="nuevo">
+    </div>
+
+    <div id="miNuevo">
+    </div>
+    <!--====================uno========================-->
+    <div id="demo" class="demo">
+        <!--uno-->
+        <!--=====================dos=======================-->
+    </div>
+    <img id="image" src="#">
+    <!--dos-->
+    <!--====================tres=======================-->
+    <div id="demo" class="demo">
+        <img id="image" src="#">
+        <!--tres-->
+    </div>
+    <!--====================cinco=====================-->
+
+    <p id="bot"><button onclick="myMove()">Click Me</button></p>
+
+    <div id="container">
+        <div id="animate"></div>
+    </div>
+
+    <!--====================seis=====================-->
+
+    <div onmouseover="mOver(this)" onmouseout="mOut(this)" onmouseup="mUp(this)" onmousedown="mDown(this)"
+        style="background-color:#D94A38;width:120px;height:20px;padding:40px;">
+        Mouse Over Me</div>
+
+    <!--================siete y ocho====================-->
+
+    <div id="div1">
+        <p id="p1">This is a paragraph.</p>
+        <p id="p2">This is another paragraph.</p>
+    </div>
+
+    <!--================nueve=====================-->
+
+    <p>Click the "Try it" button to add the "mystyle" class to the DIV element:</p>
+
+    <button onclick="myFunction()">Try it</button>
+
+    <div id="myDIV">
+        This is a DIV element.
+    </div>
+
+    <!--====================diez========================-->
+    <div class="hidden">
+        <a href="https://www.google.com"><img src="./img/43498e47-d43c-43b5-bee6-dc534880d812.JPG" width="500" height="auto"></a>
+    </div>
+
+
+
+    <script src="js/index.js"></script>
+   <!--<script src="js/asyncawait.js"></script>-->
+
+</body>
+
+</html>
